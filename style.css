@@ -1,0 +1,109 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header/Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x400/3CB371/ffffff?text=Paysage+de+Zinder'); /* À remplacer par une vraie image de Gayi */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 30px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #008080; /* Couleur d'accentuation */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3CB371;
+    padding-bottom: 5px;
+}
+
+/* Meteo Card */
+.meteo-card {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 6px;
+    border-left: 5px solid #008080;
+    margin-top: 15px;
+}
+
+.meteo-card p {
+    margin: 5px 0;
+}
+
+/* Button Styling */
+#naviguerBtn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3CB371; /* Vert cohérent avec le Niger */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#naviguerBtn:hover {
+    background-color: #008080;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #ccc;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #ccc, rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
